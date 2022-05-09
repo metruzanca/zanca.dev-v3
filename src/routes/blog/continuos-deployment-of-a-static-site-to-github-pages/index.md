@@ -1,5 +1,6 @@
 ---
 title: Continuos Deployment of a Static Site to GitHub Pages
+slug: continuos-deployment-of-a-static-site-to-github-pages
 date: 2020-08-17T23:35:00.530Z
 description: How to easily setup a CI pipeline with github actions to deploy a
   Static Site (e.g. React or Gatsby) to Github Pages

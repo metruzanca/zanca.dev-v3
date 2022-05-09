@@ -1,5 +1,6 @@
 ---
 title: How to Automate Github Releases with Github Actions (Continuous Deployment)
+slug: github-actions-continous-deployment-to-release
 date: 2021-04-21T00:21:18.749Z
 description: How to Automate Github Releases with a Github Actions pipeline for
   Continuous Deployment

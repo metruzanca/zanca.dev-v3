@@ -1,5 +1,6 @@
 ---
 title: Creating a Personal Website using Gatsby.js and Netlify CMS
+slug: personal-portfolio-blog-gatsby-netlify-cms
 date: 2020-12-20T20:36:56.280Z
 description: How I created my blog and portfolio website
 ---
