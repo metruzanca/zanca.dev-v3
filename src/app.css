@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #211E31;
+  color: white;
+}
+
+a {
+  color: #8D77FF;
+}
+
+a:visited {
+  color: #6883FD;
+}
+
+@layer components {
+  h1 {
+    @apply text-4xl font-black;
+    @apply mt-6 mb-10;
+  }
+
+  h2 {
+    @apply text-2xl font-medium;
+  }
+
+  small {
+    @apply text-gray-300;
+  }
+
+  p {
+    @apply mb-10 !important;
+  }
+
+}
