@@ -1,3 +1,6 @@
+
+// This is required by shiki to be a javascript file since its used by the svelte preprocessor
+
 import { getHighlighter } from 'shiki';
 
 const THEME = 'github-dark';
