@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-  <meta name="theme-color" content="#f7e13a" />
+  <meta name="theme-color" content="#8d77ff" />
   <meta name="description" content={title} />
   <!-- Open Graph -->
   <meta property="og:title" content="{url} - {title}" />
