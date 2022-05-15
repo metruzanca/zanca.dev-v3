@@ -1,10 +1,9 @@
 <script>
-  import Center from "$lib/Center.svelte";
   import Footer from "$lib/Footer.svelte";
 </script>
 
-<Center>
+<article class="prose dark:prose-invert mx-auto w-[600px]">
   <slot />
-</Center>
+</article>
 
 <Footer />
