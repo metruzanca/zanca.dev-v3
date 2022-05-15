@@ -8,3 +8,11 @@ declare namespace App {
 	// interface Session {}
 	// interface Stuff {}
 }
+
+export type Post = {
+  title: string;
+  slug: string;
+  date: string;
+  description: string;
+  tags: string;
+};
