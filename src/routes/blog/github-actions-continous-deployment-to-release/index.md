@@ -14,7 +14,7 @@ tags:
   - CD
   - Continuous Deployment
 ---
-I've really fallen in love with github actions. They make allow you to play around with continous integration and enable so much automation for your personal projects.
+I've really fallen in love with github actions. They make allow you to play around with continuos integration and enable so much automation for your personal projects.
 
 If you've ever wanted to make automatic releases on github, look no further.
 

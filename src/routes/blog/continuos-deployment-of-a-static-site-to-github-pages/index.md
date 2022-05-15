@@ -56,7 +56,7 @@ The gist of this workflow is two fold:
 1. A first part which simply installs dependencies and runs the build script.
 2. A second part which uses a nice third party action [Actions GH-Pages](https://github.com/peaceiris/actions-gh-pages) workflow which makes deploying to a gh-pages branch really convenient.
 
-The first part works out of the box (assuming you've used either create-react-app or gatsby-cli to bootstrap a project and thus have a npm build script), to get the second part working we need to setup a token for deploying. We've got a couple of [options](https://github.com/peaceiris/actions-gh-pages#supported-tokens) however I think the best and most convienent one is using ssh deploy keys.
+The first part works out of the box (assuming you've used either create-react-app or gatsby-cli to bootstrap a project and thus have a npm build script), to get the second part working we need to setup a token for deploying. We've got a couple of [options](https://github.com/peaceiris/actions-gh-pages#supported-tokens) however I think the best and most convenient one is using ssh deploy keys.
 
 ## Step 2: Create a new ssh key pair
 

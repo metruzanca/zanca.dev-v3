@@ -31,7 +31,7 @@ git checkout old_branch_name
 git branch -m new_branch_name
 ```
 I Initially thought that would be enough, but when i pushed to the new repo i noticed that when using commands like `git status` that the now gh-pages branch was still referencing origin/master (which was now a different branch aka what was origin/dev).
-As you can immagine this, will create some havok. So I realized that i needed update the upstream reference.
+As you can imagine this, will create some havoc. So I realized that i needed update the upstream reference.
 
 This is also easy enough
 
@@ -39,7 +39,7 @@ This is also easy enough
 git push origin -u branch_name
 ```
 
-For those curious, the -u flag does is the same as the --set-upstream flag. Which should look more familar if you've ever run `git push` without specifying the origin name and remote branch. Git will be helpful and give you a copy-paste command to set the remote reference for that branch so that you can then use git push in the future while on that branch.
+For those curious, the -u flag does is the same as the --set-upstream flag. Which should look more familiar if you've ever run `git push` without specifying the origin name and remote branch. Git will be helpful and give you a copy-paste command to set the remote reference for that branch so that you can then use git push in the future while on that branch.
 
 ## TL;DR
 

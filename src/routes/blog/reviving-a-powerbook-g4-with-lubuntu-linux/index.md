@@ -34,7 +34,7 @@ After that you should be presented with a CLI with a white background.
 
 ## Selecting the boot medium
 
-PowerBooks are old, thus they don't have a GUI based bios and instead use a CLI. Normally I love me a good CLI as they are much more powerfull if you know what you're doing. Sadly this bios is not very user friendly with obscure commands and no user manual. After some digging I found the correct command to boot from USB.
+PowerBooks are old, thus they don't have a GUI based bios and instead use a CLI. Normally I love me a good CLI as they are much more powerful if you know what you're doing. Sadly this bios is not very user friendly with obscure commands and no user manual. After some digging I found the correct command to boot from USB.
 
 **NB**: if you have a non-american keyboard, while in this CLI your keyboard layout
 will default to the american layout so this might come in handy.

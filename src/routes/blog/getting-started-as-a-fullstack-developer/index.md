@@ -22,7 +22,7 @@ After I graduated High School I officially became unemployed and I started looki
 
 I now happily work for an IT consultant agency in the Aerospace field, currently working on my first project under very loose supervision from a senior dev. The environment is great. Its a company is full of youthful and passionate faces. I got flexible hours, a cafeteria, a new mentor, a company laptop... but mostly importantly great coworkers. We meet for 10 o-clock coffee break and chat about very nerdy things. One time we were talking non-conventional SQL injections in the form of [taping one on to your licence plate](https://www.reddit.com/r/geek/comments/1j9tn3/speed_camera_sql_injection/) or stuff like being the [proud owner of the NULL licence plate](https://nakedsecurity.sophos.com/2019/08/15/null-license-plate-gets-security-researcher-12k-in-tickets/).
 
-Currently I'm happy, but im not entirely satified. I want to start working on side husstles and keep upping my productivity. But I also want to give back to the developer online community. In the form of blog posts with hopes of helping others or inspiring them and soon hopefully some YT videos in the same vain.
+Currently I'm happy, but im not entirely satisfied. I want to start working on side hustles and keep upping my productivity. But I also want to give back to the developer online community. In the form of blog posts with hopes of helping others or inspiring them and soon hopefully some YT videos in the same vain.
 
 If you've read this far, thank you.
 

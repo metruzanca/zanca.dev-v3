@@ -11,7 +11,7 @@ Simply put, its the name and email that gets used in the Author field of your co
 
 ## Why do you need to manage your GIT Identities?
 
-If you're like me and enjoy using [GitHub](https://github.com) for personal projects and some private git server (most oftenly a selfhosted [GitLab](https://about.gitlab.com) for work, you often need to remember to set your GIT user and email.
+If you're like me and enjoy using [GitHub](https://github.com) for personal projects and some private git server (most often a self-hosted [GitLab](https://about.gitlab.com) for work, you often need to remember to set your GIT user and email.
 
 _otherwise you could end up in a situation like this_
 
@@ -39,9 +39,9 @@ You could still set your global to your most used identity and then override per
 
 This is probably the easiest of the two. But IMHO leaves too much up to chance for accidentally forgetting.
 
-### Opt. 2: Setting per repository, everytime
+### Opt. 2: Setting per repository, every time
 
-Simply put, don't set your global identity, manually set it everytime you create or clone a repository. If you forget, github will simply remind you set it.
+Simply put, don't set your global identity, manually set it every time you create or clone a repository. If you forget, github will simply remind you set it.
 
 Now of course, writing out those two lines can be annoying. So to solve this very first world problem of repetitive typing I've come up with this simple bash script. (sorry windows users)
 
@@ -52,12 +52,12 @@ identity() {
     work | google)
       git config user.name "Work name"
       git config user.email "workName@Google.com"
-      echo "You are now commiting as workName@google.com"
+      echo "You are now committing as workName@google.com"
       ;;
     personal)
       git config user.name "personal name"
       git config user.email "personalName@gmail.com"
-      echo "You are now commiting as personalName@gmail.com"
+      echo "You are now committing as personalName@gmail.com"
       ;;
   esac
 }
@@ -75,15 +75,15 @@ When defining a case you can also add a pipe (`|`) for an OR case.
 
 The code we're running in each case is simply setting our git config and echoing a completion message.
 
-I personally placed this function in my `.bash_aliasses`, but so long as its sourced at some point when you open your console/terminal you can call it like this:
+I personally placed this function in my `.bash_aliases`, but so long as its sourced at some point when you open your console/terminal you can call it like this:
 
 ```bash
 identity work
-# You are now commiting as workName@google.com
+# You are now committing as workName@google.com
 identity personal
-# You are now commiting as personalName@gmail.com
+# You are now committing as personalName@gmail.com
 identity google
-# You are now commiting as workName@google.com
+# You are now committing as workName@google.com
 ```
 
-> This is chainging your identity in the repository you are currently working cd'd into.
+> This is changing your identity in the repository you are currently working cd'd into.
