@@ -7,7 +7,7 @@ tags:
   - mac
   - linux
 ---
-![](powerbook_redjar.jpg)
+![](./powerbook_redjar.jpg)
 
 ## Introduction
 
