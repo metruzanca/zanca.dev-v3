@@ -12,6 +12,7 @@
 
 <script lang="ts">
   import type { Post } from "src/app";
+  import { formatDate } from "$lib/dates";
   export let posts: Post[];
 </script>
 
@@ -25,7 +26,7 @@
           </h2>
         </a>
 
-        <small>{date}</small>
+        <small>{formatDate(new Date(date))}</small>
 
         <p class="text-white text-base">
           {description}

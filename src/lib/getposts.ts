@@ -1,13 +1,17 @@
-// import type { Post } from '$lib/types';
-
 import type { Post } from "src/app"
 
 export async function getPosts(): Promise<Post[]> {
-  const posts = await Object.entries(
+  const posts: Post[] = [];
+
+  const files = await Object.entries(
     import.meta.globEager('../routes/blog/**/*.md')
   )
-    .map(([, post]) => post.metadata)
-    .sort((a, b) => (a.date < b.date ? 1 : -1))
 
-  return posts
+  for (const [, file] of files) {
+    if (!file.metadata.draft) {
+      posts.push(file.metadata)
+    }
+  }
+
+  return posts.sort((a, b) => (a.date < b.date ? 1 : -1))
 }

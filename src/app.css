@@ -23,6 +23,7 @@ a:visited {
 
   h2 {
     @apply text-2xl font-medium;
+    @apply mt-4 mb-4;
   }
 
   small {
@@ -33,4 +34,8 @@ a:visited {
     @apply mb-10 !important;
   }
 
+  /* Nested lists get tabbed */
+  ul ul {
+    @apply ml-4;
+  }
 }
