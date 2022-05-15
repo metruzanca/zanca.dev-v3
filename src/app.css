@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #211E31;
-  color: white;
+  background: #111019;
+  color: #8f93a2;
 }
 
 a {
@@ -27,11 +27,11 @@ a:visited {
   }
 
   small {
-    @apply text-gray-300;
+    @apply text-gray-500;
   }
 
   p {
-    @apply mb-10 !important;
+    @apply mb-10;
   }
 
   /* Nested lists get tabbed */

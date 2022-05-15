@@ -20,7 +20,7 @@
   <ul class="list-none">
     {#each posts as { title, date, description, slug }}
       <li class="list-none">
-        <a class="text-blue-500 space-y-3" rel="prefetch" href="blog/{slug}">
+        <a class="space-y-3" rel="prefetch" href="blog/{slug}">
           <h2>
             {title}
           </h2>
@@ -28,7 +28,7 @@
 
         <small>{formatDate(new Date(date))}</small>
 
-        <p class="text-white text-base">
+        <p class="text-base">
           {description}
         </p>
       </li>
