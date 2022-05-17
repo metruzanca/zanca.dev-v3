@@ -62,4 +62,7 @@ article h1
     @apply prose lg:prose-xl dark:prose-invert;
   }
 
+  article h1 {
+    @apply pb-2
+  }
 }
