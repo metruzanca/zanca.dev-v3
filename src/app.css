@@ -16,7 +16,7 @@ a:visited {
 }
 
 .gradient {
-  background: linear-gradient(to right, #e677ff 0%, #8D77FF 100%);
+  background: linear-gradient(to right, #c468fd 0%, #6883FD 100%);
   background-clip: text;
   color: transparent;
 }
