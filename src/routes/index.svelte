@@ -30,6 +30,9 @@
   <meta name="twitter:creator" content="metruzanca" />
   <meta name="twitter:description" content={title} />
   <meta name="twitter:title" content="{url} - {title}" />
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" {title} href="blog/rss" />
+
   <title>{url} | {title}</title>
 </svelte:head>
 
@@ -38,7 +41,7 @@
     {#each posts as { title, date, description, slug }}
       <li class="list-none">
         <a class="space-y-3" rel="prefetch" href="blog/{slug}">
-          <h2>
+          <h2 class="gradient">
             {title}
           </h2>
         </a>
