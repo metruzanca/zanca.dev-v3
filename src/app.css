@@ -15,6 +15,14 @@ a:visited {
   color: #6883FD;
 }
 
+.gradient {
+  background: linear-gradient(to right, #e677ff 0%, #8D77FF 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+/* TODO blog post h1 should be a gradient font-color */
+
 @layer components {
   h1 {
     @apply text-4xl font-black;
