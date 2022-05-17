@@ -23,6 +23,13 @@ collections:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug must be dash separated words'],
+          hint: "The post canonical URL"
+        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
