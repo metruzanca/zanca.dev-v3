@@ -13,3 +13,16 @@
 - [ ] Cross-post on https://hashnode.com and https://dev.to
 - [ ] Landing page
 - [ ] Better drafting and better editorial experience.
+- [ ] Custom scrollbar
+- [ ] page title on each post
+- [ ] All headings should be anchorable
+- [ ] Save publish date and edit date.
+- [ ] Footer w/ about writer
+- [ ] Privacy statement
+  - What I have about you
+  - What tools I use
+  - Wear your heart on your sleves
+- Make zanca.dev blog posts prerendered
+- Make sitemap for google
+- Page primary keyword
+- GDPR
