@@ -42,7 +42,7 @@
 </svelte:head>
 
 <main>
-  <ul class="list-none">
+  <ul class="list-none mx-auto max-w-[800px]">
     {#each posts as { title, date, description, slug }}
       <li class="list-none">
         <a class="space-y-3" rel="prefetch" href="blog/{slug}">
