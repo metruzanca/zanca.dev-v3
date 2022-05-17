@@ -5,6 +5,8 @@ date: "2019-09-30T10:30:35.562Z"
 description: "15 days into my first job, I look back on my journey thus far. Having majored in CS in highschool, self-teaching myself the skills necessary to land a good job in the biggest City in italy, Milan."
 ---
 
+# High School CS Major to Full-Time FullStack Developer
+
 Hello, my name is Samuel. I'm a 21yo self-taught full-stack developer and I'm about 2 weeks into my first development job in the Aerospace industry as an IT consultant.
 
 Having been held back twice in High School, I felt an overwhelming pressure that pushed me to work hard on learning modern web development strategies & technologies in order to better sell myself to possible employers. So in my spare time, in order to not feel as behind compared to my peers, who were in their second year of university, I spent time working on small projects.

@@ -9,7 +9,7 @@ tags:
   - TDD
   - javascript
 ---
-# Mocking Axios
+# Mocking Axios with Jest
 
 Mocking Axios with jest is pretty straight forward.
 

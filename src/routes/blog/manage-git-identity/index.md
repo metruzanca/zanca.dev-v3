@@ -5,6 +5,8 @@ date: "2020-12-20T18:48:35.562Z"
 description: "How to easily manage your GIT Identity"
 ---
 
+# How to manage your Git Identity for Work and for Personal Projects
+
 ## What is a GIT Identity?
 
 Simply put, its the name and email that gets used in the Author field of your commits that show up in `git log` and on the git server.

@@ -11,6 +11,7 @@ tags:
   - react
   - sass
 ---
+# Darken and Lighen in Pure CSS
 If you're coming from SASS, you're likely used to all the helpful mixins it comes with e.g. lighten and darken.
 
 This feature is missing from many frameworks like my favorite, Styled-Components.

@@ -9,7 +9,7 @@ tags:
 ---
 ![](./powerbook_redjar.jpg)
 
-## Introduction
+# Reviving a Powerbook G4 with Lubuntu Linux
 
 My dad has an old MacBook from 2001, a PowerBook G4 that's been just sitting collecting dust for years. He wanted to try and revive it to use it for casual web browsing. So I told him he could probably pull it off by putting Linux on it.
 
