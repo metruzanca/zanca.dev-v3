@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
@@ -30,4 +30,4 @@ collections:
 
 site_url: https://zanca.dev
 display_url: https://zanca.dev
-logo_url: https://zanca.dev/logo.svg
+logo_url: https://zanca.dev/favicon.png
