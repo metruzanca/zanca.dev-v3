@@ -1,6 +1,4 @@
 <script>
-  import Center from "$lib/Center.svelte";
-
   import Header from "$lib/Header.svelte";
 
   import "../app.css";
@@ -8,6 +6,4 @@
 
 <Header />
 
-<Center>
-  <slot />
-</Center>
+<slot />

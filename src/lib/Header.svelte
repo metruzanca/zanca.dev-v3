@@ -2,7 +2,7 @@
   export let title = "Zanca.dev";
 </script>
 
-<nav class="mx-auto w-[600px]">
+<nav>
   <h1>
     <a href="/">
       <span>{title[0]}</span>{title.slice(1)}

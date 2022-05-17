@@ -15,6 +15,11 @@
 <script lang="ts">
   import type { Post } from "src/app";
   import { formatDate } from "$lib/dates";
+  // import { MetaTags } from 'svelte-meta-tags'; // TODO use this in place of meta tags
+  // Also read up https://ignitevisibility.com/everything-to-know-about-json-ld-for-seo/
+  // Use this to get frontmatter data to update meta tags https://github.com/pngwn/MDsveX/issues/313
+  // TODO use netlify instead for netlify cms https://github.com/netlify/build/issues/1633
+  // https://github.com/buhrmi/sveltekit-netlify-cms
   export let posts: Post[];
 </script>
 
@@ -36,7 +41,7 @@
   <title>{url} | {title}</title>
 </svelte:head>
 
-<main class="mx-auto w-[600px]">
+<main>
   <ul class="list-none">
     {#each posts as { title, date, description, slug }}
       <li class="list-none">

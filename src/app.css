@@ -15,13 +15,15 @@ a:visited {
   color: #6883FD;
 }
 
-.gradient {
-  background: linear-gradient(to right, #c468fd 0%, #6883FD 100%);
-  background-clip: text;
-  color: transparent;
+
+article h1
+, .gradient
+{
+  background: linear-gradient(to right, #c468fd 0%, #6883FD 100%) !important;
+  background-clip: text !important;
+  color: transparent !important;
 }
 
-/* TODO blog post h1 should be a gradient font-color */
 
 @layer components {
   h1 {
@@ -46,4 +48,18 @@ a:visited {
   ul ul {
     @apply ml-4;
   }
+
+  nav
+  , main
+  , footer
+  {
+    @apply mx-4;
+  }
+
+  article {
+    @apply mb-12;
+    /* Tailwind Typography */
+    @apply prose lg:prose-xl dark:prose-invert;
+  }
+
 }
