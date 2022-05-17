@@ -1,0 +1,5 @@
+# Workaround necessary for pnpm. Unfortunately netlify doesn't support it out of the box like vercel
+[build.environment]
+  NPM_FLAGS = "--version"
+[build]
+  command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
