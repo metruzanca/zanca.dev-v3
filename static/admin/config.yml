@@ -13,7 +13,7 @@ collections:
   - name: "blog"
     label: "Blog"
     # needs to be in routes for mdsvex pre-processing
-    folder: src/routes
+    folder: src/routes/blog
     create: true
     slug: "index"
     media_folder: ""
