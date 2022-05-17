@@ -58,8 +58,6 @@ article h1
 
   article {
     @apply mb-12;
-    /* Tailwind Typography */
-    @apply prose lg:prose-xl dark:prose-invert;
   }
 
   article h1 {

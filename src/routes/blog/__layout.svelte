@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <article class="mx-auto">
+  <article class="prose lg:prose-xl dark:prose-invert mx-auto">
     <slot />
   </article>
 </main>
