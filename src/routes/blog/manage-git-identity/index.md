@@ -18,9 +18,7 @@ If you're like me and enjoy using [GitHub](https://github.com) for personal proj
 _otherwise you could end up in a situation like this_
 
 ![committed with wrong identity](./git-fail.jpg)
-<!--
-TODO make sure this image works with svelte
- -->
+
 
 > Notice my two different git identities? Your boss might find this a little unprofessional...
 

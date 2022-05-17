@@ -22,7 +22,9 @@
   - What I have about you
   - What tools I use
   - Wear your heart on your sleves
-- Make zanca.dev blog posts prerendered
-- Make sitemap for google
-- Page primary keyword
-- GDPR
+- [ ] Make zanca.dev blog posts prerendered
+- [ ] Make sitemap for google
+- [ ] Page primary keyword
+- [ ] https://github.com/scottbedard/svelte-heatmap
+- [ ] Fix RSS
+- [ ]
