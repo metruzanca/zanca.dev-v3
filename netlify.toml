@@ -1,15 +1,11 @@
-# Workaround necessary for pnpm. Unfortunately netlify doesn't support it out of the box like vercel
+# PNPM isn't natively supported by netlify, so we need to do these two workarounds:
 [build.environment]
-  # This makes npm install not fail as --version overrides the install command
+  # 1. This makes npm install not fail as --version overrides the install command
   NPM_FLAGS = "--version"
 [build]
-  # After the "successful" install, we run pnpm
+  # 2. After the "successful" install, we run pnpm
   command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
   publish = "build"
-
-[dev]
- command = "svelte-kit dev"
-
 
 [functions]
 directory = "netlify/functions"
