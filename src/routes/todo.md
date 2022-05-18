@@ -27,4 +27,4 @@
 - [ ] Page primary keyword
 - [ ] https://github.com/scottbedard/svelte-heatmap
 - [ ] Fix RSS
-- [ ]
+- [ ] No JS hamburger menu https://codepen.io/markcaron/pen/pPZVWO
