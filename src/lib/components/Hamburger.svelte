@@ -1,17 +1,18 @@
 <!-- TODO add z index dictionary and make sure this is always on top -->
 <script lang="ts">
   export let open = false;
+  export let asymetric = false;
 </script>
 
 <button on:click={() => (open = !open)} class="hamburger">
   <div class="burger-box">
-    <div class="burger-patties asymetric" class:open />
+    <div class="burger-patties" class:open class:asymetric />
   </div>
 </button>
 
 <style>
   .hamburger {
-    @apply cursor-pointer flex items-center justify-center relative mr-[15px] p-[15px];
+    @apply cursor-pointer flex items-center justify-center relative pl-2;
     transition: opacity 0.15s linear, filter 0.15s linear;
   }
   .burger-box {

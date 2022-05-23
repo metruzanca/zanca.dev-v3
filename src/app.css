@@ -24,8 +24,23 @@ h1
   color: transparent !important;
 }
 
+nav {
+  background: #111019;
+}
+
+* {
+  scrollbar-width: thin;
+}
 
 @layer components {
+  nav {
+    @apply h-16;
+  }
+
+  main {
+    @apply mt-16 pt-4;
+  }
+
   h1 {
     @apply text-4xl font-black;
     @apply mt-6 mb-10;
@@ -49,14 +64,8 @@ h1
     @apply ml-4;
   }
 
-  nav
-  , footer
-  {
-    @apply mx-4;
-  }
-
-  main {
-    @apply mx-auto max-w-[800px];
+  nav, main {
+    @apply px-4;
   }
 
   article {

@@ -16,6 +16,8 @@
   <meta name="theme-color" content="#8d77ff" />
 </svelte:head>
 
-<Header />
+<div class="relative">
+  <Header />
 
-<slot />
+  <slot />
+</div>

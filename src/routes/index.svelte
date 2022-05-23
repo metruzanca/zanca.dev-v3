@@ -25,6 +25,6 @@
   }}
 />
 
-<main>
+<main class="mx-auto max-w-[800px]">
   <PostList {posts} />
 </main>
