@@ -22,5 +22,5 @@
   </h1>
   <p class="p-8 text-xl">{message}</p>
   <!-- TODO improve link buttons -->
-  <a href="/" class="text-l border-2 border-current p-2 rounded-lg">Go Home</a>
+  <a href="/" class="cta">Go Home</a>
 </main>

@@ -1,8 +1,10 @@
 <script>
   import Header from "$lib/components/Header.svelte";
+  import MobileMenu from "$lib/components/MobileMenu.svelte";
   import { TITLE } from "$lib/constants";
 
   import "../app.css";
+  let open = false;
 </script>
 
 <svelte:head>
@@ -17,7 +19,8 @@
 </svelte:head>
 
 <div class="relative">
-  <Header />
+  <Header bind:open />
 
   <slot />
+  <MobileMenu bind:open />
 </div>

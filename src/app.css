@@ -75,4 +75,8 @@ nav {
   article h1 {
     @apply pb-2
   }
+
+  .cta {
+    @apply text-lg border-2 border-current p-2 rounded-lg;
+  }
 }

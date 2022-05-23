@@ -3,8 +3,6 @@
 
   export let title = "Zanca.dev";
 
-  let open = false;
-
   let lastKnownScrollPosition = 0;
   let ticking = false;
 
@@ -30,6 +28,8 @@
       ticking = true;
     }
   }
+
+  export let open = false;
 </script>
 
 <svelte:window on:scroll={scroll} />
