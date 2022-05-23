@@ -16,7 +16,7 @@
     <ul class="flex flex-col justify-between h-1/2 text-3xl items-center">
       {#each menu as { href, name, cta }}
         <li>
-          <a {href} class:cta>{name}</a>
+          <a {href} on:click={() => (open = false)} class:cta>{name}</a>
         </li>
       {/each}
     </ul>
