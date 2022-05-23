@@ -13,7 +13,7 @@
     rel="alternate"
     type="application/rss+xml"
     title={TITLE}
-    href="blog/rss"
+    href="/blog/rss"
   />
   <meta name="theme-color" content="#8d77ff" />
 </svelte:head>
