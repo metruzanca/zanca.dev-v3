@@ -1,17 +1,15 @@
-<script context="module" lang="ts">
-  const title = "Developer Blog by Samuele Zanca";
-  const url = "Zanca.Dev";
-</script>
-
 <script lang="ts">
   import type { Post } from "src/app";
   import PostList from "$lib/components/PostList.svelte";
-  // import { MetaTags } from 'svelte-meta-tags'; // TODO use this in place of meta tags
-  // Use this to get frontmatter data to update meta tags https://github.com/pngwn/MDsveX/issues/313
+  import { title, url } from "$lib/constants";
+
+  // import { MetaTags } from 'svelte-meta-tags';
   export let posts: Post[];
 </script>
 
 <svelte:head>
+  <!-- TODO -->
+  <!-- <MetaTags/> -->
   <meta name="theme-color" content="#8d77ff" />
   <meta name="description" content={title} />
   <!-- Open Graph -->

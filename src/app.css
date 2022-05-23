@@ -16,7 +16,7 @@ a:visited {
 }
 
 
-article h1
+h1
 , .gradient
 {
   background: linear-gradient(to right, #c468fd 0%, #6883FD 100%) !important;
@@ -50,10 +50,13 @@ article h1
   }
 
   nav
-  , main
   , footer
   {
     @apply mx-4;
+  }
+
+  main {
+    @apply mx-auto max-w-[800px];
   }
 
   article {

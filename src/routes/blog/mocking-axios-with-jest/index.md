@@ -3,13 +3,8 @@ title: Mocking Axios with Jest
 slug: mocking-axios-with-jest
 date: 2020-08-24T08:39:16.658Z
 description: How to Mock Axios with Jest
-tags:
-  - til
-  - jest
-  - TDD
-  - javascript
+tags: ["til", "tdd", "javascript"]
 ---
-# Mocking Axios with Jest
 
 Mocking Axios with jest is pretty straight forward.
 

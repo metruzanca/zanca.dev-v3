@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Hamburger from "./Hamburger.svelte";
+  import Hamburger from "$lib/components/Hamburger.svelte";
 
   export let title = "Zanca.dev";
 

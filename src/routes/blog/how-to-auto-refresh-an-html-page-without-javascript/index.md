@@ -3,11 +3,8 @@ title: How to Auto Refresh an HTML page without Javascript
 slug: how-to-auto-refresh-an-html-page-without-javascript
 date: 2020-09-30T23:37:22.091Z
 description: How to make a website auto refresh without Javascript
-tags:
-  - til
-  - html
+tags: ["til", "web-development"]
 ---
-# How to Auto Refresh an HTML page
 
 Apparently theres a meta tag that auto refreshes your page:
 ```html

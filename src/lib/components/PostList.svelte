@@ -5,10 +5,10 @@
   export let posts: Post[];
 </script>
 
-<ul class="list-none mx-auto max-w-[800px]">
+<ul class="list-none">
   {#each posts as { title, date, description, slug }}
     <li class="list-none">
-      <a class="space-y-3" rel="prefetch" href="blog/{slug}">
+      <a class="space-y-3" rel="prefetch" href="/blog/{slug}">
         <h2 class="gradient">
           {title}
         </h2>

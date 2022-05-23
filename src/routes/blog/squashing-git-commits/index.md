@@ -3,11 +3,8 @@ title: Squashing GIT Commits
 slug: squashing-git-commits
 date: 2020-09-13T23:03:08.384Z
 description: How to use the --squash flag on git merge
-tags:
-  - til
-  - git
+tags: ["til", "git"]
 ---
-# Squashing GIT Commits into one
 
 ## 1. Squash on merge
 

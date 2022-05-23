@@ -6,11 +6,12 @@ import tags from "./tags.json";
 export const get: RequestHandler = async ({ params }) => {
   const tag = (tags as unknown as TagList)[params.tag];
 
+
+
   if (!tag) {
+    console.log(params.tag);
     return {
-      status: 500,
-      //FIXME this error message is not accessible on the error page
-      error: new Error(`Tag ${params.tag} not found.`),
+      status: 500
     }
   }
   return {

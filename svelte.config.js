@@ -14,6 +14,7 @@ const config = {
 	preprocess: [
 		preprocess(),
 		mdsvex({
+			layout: "./src/lib/BlogLayout.svelte",
       extensions: ['.md'],
 			remarkPlugins: [relativeImages],
 			highlight: {

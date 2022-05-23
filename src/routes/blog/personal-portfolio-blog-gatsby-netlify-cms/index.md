@@ -3,9 +3,8 @@ title: Creating a Personal Website using Gatsby.js and Netlify CMS
 slug: personal-portfolio-blog-gatsby-netlify-cms
 date: 2020-12-20T20:36:56.280Z
 description: How I created my blog and portfolio website
+tags: ["react", "netlify"]
 ---
-
-# Creating a Personal Website using Gatsby.js and Netlify CMS
 
 One of my greatest weaknesses is perfectionism. This is most prevalent in my personal projects where I have no outside stimulus, such as a deadline, to keep me focussed on creating the most value for the least effort. In my personal projects I have a tendency to want to overthink (because it's fun!) the problem and try to come up with creative solutions.
 

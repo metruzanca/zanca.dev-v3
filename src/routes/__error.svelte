@@ -10,13 +10,13 @@
 </script>
 
 <script lang="ts">
-  import Glitch from "$lib/Glitch.svelte";
+  import Glitch from "$lib/components/Glitch.svelte";
 
   export let status: string;
   export let message: string;
 </script>
 
-<main class="mx-auto max-w-[800px] flex flex-col items-center">
+<main class="flex flex-col items-center">
   <h1>
     <Glitch glitchText={status} />
   </h1>

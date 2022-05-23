@@ -6,11 +6,11 @@
   export let posts: Post[];
 </script>
 
-<h1>{tag.name}</h1>
-
-<p>{tag.description}</p>
-
 <main>
+  <h1>{tag.name}</h1>
+
+  <p>{tag.description}</p>
+
   <PostList {posts} />
 </main>
 

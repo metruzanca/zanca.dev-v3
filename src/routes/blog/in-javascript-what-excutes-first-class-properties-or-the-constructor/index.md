@@ -4,12 +4,8 @@ slug: in-javascript-what-excutes-first-class-properties-or-the-constructor
 date: 2020-11-29T09:40:43.627Z
 description: A short blog post where I document my approach to finding a
   solution to a question I had.
-tags:
-  - oop
-  - javascript
-  - til
+tags: ["programming", "javascript", "til"]
 ---
-# What executes first? The Properties or the Constructor?
 
 In most languages its the Properties first, but with how javascript doesn't conform to normal OOP and instead uses a prototypal inheritance model I wanted to double check.
 
