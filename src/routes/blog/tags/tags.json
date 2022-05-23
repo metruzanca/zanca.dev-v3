@@ -4,16 +4,52 @@
     "name": "Git",
     "description": "Posts about either Git the Version control Software or Github a popular Git powered service for collaborative software development"
   },
-  "javascript": {},
-  "css": {},
-  "til": {},
-  "devops": {},
-  "react": {},
-  "web-development": {},
-  "typescript": {},
-  "programming": {},
-  "linux": {},
-  "tdd": {},
-  "netlify": {},
-  "software-development": {}
+  "javascript": {
+    "id": "javascript",
+    "name": "Javascript"
+  },
+  "css": {
+    "id": "css",
+    "name": "CSS"
+  },
+  "til": {
+    "id": "til",
+    "name": "TIL"
+  },
+  "devops": {
+    "id": "devops",
+    "name": "DevOps"
+  },
+  "react": {
+    "id": "react",
+    "name": "React"
+  },
+  "web-development": {
+    "id": "web-development",
+    "name": "Web Development"
+  },
+  "typescript": {
+    "id": "typescript",
+    "name": "Typescript"
+  },
+  "programming": {
+    "id": "programming",
+    "name": "Programming"
+  },
+  "linux": {
+    "id": "linux",
+    "name": "Linux"
+  },
+  "tdd": {
+    "id": "tdd",
+    "name": "TDD"
+  },
+  "netlify": {
+    "id": "netlify",
+    "name": "Netlify"
+  },
+  "software-development": {
+    "id": "software-development",
+    "name": "Software Development"
+  }
 }

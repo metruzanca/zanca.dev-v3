@@ -9,7 +9,9 @@
 <main>
   <h1>{tag.name}</h1>
 
-  <p>{tag.description}</p>
+  {#if tag.description}
+    <p>{tag.description}</p>
+  {/if}
 
   <PostList {posts} />
 </main>

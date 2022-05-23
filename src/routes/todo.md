@@ -28,3 +28,4 @@
 - [ ] https://github.com/scottbedard/svelte-heatmap
 - [ ] Fix RSS
 - [ ] No JS hamburger menu https://codepen.io/markcaron/pen/pPZVWO
+- [ ] [Custom heading components](https://mdsvex.pngwn.io/docs#custom-components) so that they gain ids for #linking purposes.

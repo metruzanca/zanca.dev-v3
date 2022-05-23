@@ -1,30 +1,36 @@
 <script lang="ts">
+  import { MetaTags } from "svelte-meta-tags";
   import type { Post } from "src/app";
   import PostList from "$lib/components/PostList.svelte";
-  import { title, url } from "$lib/constants";
+  import { openGraphMeta, title, twitterMeta, url } from "$lib/constants";
 
-  // import { MetaTags } from 'svelte-meta-tags';
   export let posts: Post[];
+
+  const altTitle = `${url} - ${title}`;
 </script>
 
-<svelte:head>
-  <!-- TODO -->
-  <!-- <MetaTags/> -->
-  <meta name="theme-color" content="#8d77ff" />
-  <meta name="description" content={title} />
-  <!-- Open Graph -->
-  <meta property="og:title" content="{url} - {title}" />
-  <meta property="og:description" content={title} />
-  <meta property="og:type" content="website" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:creator" content="metruzanca" />
-  <meta name="twitter:description" content={title} />
-  <meta name="twitter:title" content="{url} - {title}" />
-  <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" {title} href="blog/rss" />
+<MetaTags
+  title={altTitle}
+  description={title}
+  twitter={{
+    ...twitterMeta,
+    cardType: "summary",
+    handle: "metruzanca",
+    description: title,
+    title: altTitle,
+  }}
+  openGraph={{
+    ...openGraphMeta,
+    title: altTitle,
+    description: title,
+    type: "website",
+  }}
+/>
 
-  <title>{url} | {title}</title>
+<svelte:head>
+  <!-- These don't change and aren't supported by MetaTags -->
+  <link rel="alternate" type="application/rss+xml" {title} href="blog/rss" />
+  <meta name="theme-color" content="#8d77ff" />
 </svelte:head>
 
 <main>
