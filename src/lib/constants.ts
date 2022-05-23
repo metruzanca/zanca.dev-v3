@@ -1,11 +1,14 @@
-export const title = "Developer Blog by Samuele Zanca";
-export const url = "Zanca.Dev";
+import type { Twitter, OpenGraph } from "svelte-meta-tags";
 
-export const twitterMeta = {
+export const TITLE = "Developer Blog by Samuele Zanca";
+export const URL = "Zanca.Dev";
+export const BASE_URL = 'https://zanca.dev'
+
+export const TWITTER: Twitter = {
   cardType: "summary",
-  handle: "metruzanca",
+  handle: "@metruzanca",
 }
 
-export const openGraphMeta = {
+export const OPEN_GRAPH: OpenGraph = {
   type: "website",
 }

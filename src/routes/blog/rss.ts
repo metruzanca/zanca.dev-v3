@@ -45,8 +45,8 @@ function rss({
 type Params = never;
 type Response = any;
 
-export const get: RequestHandler<Params, Response> = async () => {
-  const posts = await getPosts();
+export const get: RequestHandler<Params, Response> = () => {
+  const posts = getPosts();
 
   return {
     body: rss({

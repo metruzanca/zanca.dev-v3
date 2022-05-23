@@ -1,28 +1,25 @@
 <script>
   import { MetaTags } from "svelte-meta-tags";
-  import { openGraphMeta, twitterMeta, url } from "$lib/constants";
+  import { OPEN_GRAPH, TWITTER, URL } from "$lib/constants";
   import Footer from "$lib/components/Footer.svelte";
 
   export let tags;
   export let title;
   export let description;
-  // TODO Use frontmatter to populate MetaTags specific to blog post
-
-  const altTitle = `${url} - ${title}`;
-  export const prerender = true;
 </script>
 
 <MetaTags
-  title={altTitle}
+  titleTemplate="{URL} - %s"
+  {title}
   {description}
   twitter={{
-    ...twitterMeta,
+    ...TWITTER,
     description,
-    title: altTitle,
+    title,
   }}
   openGraph={{
-    ...openGraphMeta,
-    title: altTitle,
+    ...OPEN_GRAPH,
+    title,
     description,
   }}
 />
