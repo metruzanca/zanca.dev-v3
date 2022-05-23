@@ -1,9 +1,9 @@
 import type { Post } from "src/app"
 
-export async function getPosts(): Promise<Post[]> {
+export function getPosts(): Post[] {
   const posts: Post[] = [];
 
-  const files = await Object.entries(
+  const files = Object.entries(
     import.meta.globEager('../routes/blog/**/*.md')
   )
 
@@ -14,4 +14,11 @@ export async function getPosts(): Promise<Post[]> {
   }
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1))
+}
+
+export function getPostsByTags(searchTags: string[]): Post[] {
+  const posts = getPosts();
+
+  // Filter the posts so that every searchTag appears on the post
+  return posts.filter(post => searchTags.every(tag => post.tags?.includes(tag)))
 }

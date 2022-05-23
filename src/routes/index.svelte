@@ -1,25 +1,13 @@
 <script context="module" lang="ts">
-  import type { LoadOutput } from "@sveltejs/kit";
-  import { getPosts } from "$lib/getposts";
-
-  export async function load(): Promise<LoadOutput> {
-    const posts = await getPosts();
-    return {
-      props: { posts },
-    };
-  }
   const title = "Developer Blog by Samuele Zanca";
   const url = "Zanca.Dev";
 </script>
 
 <script lang="ts">
   import type { Post } from "src/app";
-  import { formatDate } from "$lib/dates";
+  import PostList from "$lib/components/PostList.svelte";
   // import { MetaTags } from 'svelte-meta-tags'; // TODO use this in place of meta tags
-  // Also read up https://ignitevisibility.com/everything-to-know-about-json-ld-for-seo/
   // Use this to get frontmatter data to update meta tags https://github.com/pngwn/MDsveX/issues/313
-  // TODO use netlify instead for netlify cms https://github.com/netlify/build/issues/1633
-  // https://github.com/buhrmi/sveltekit-netlify-cms
   export let posts: Post[];
 </script>
 
@@ -42,21 +30,5 @@
 </svelte:head>
 
 <main>
-  <ul class="list-none mx-auto max-w-[800px]">
-    {#each posts as { title, date, description, slug }}
-      <li class="list-none">
-        <a class="space-y-3" rel="prefetch" href="blog/{slug}">
-          <h2 class="gradient">
-            {title}
-          </h2>
-        </a>
-
-        <small>{formatDate(new Date(date))}</small>
-
-        <p class="text-base">
-          {description}
-        </p>
-      </li>
-    {/each}
-  </ul>
+  <PostList {posts} />
 </main>

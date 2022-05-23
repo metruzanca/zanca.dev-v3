@@ -16,3 +16,11 @@ export type Post = {
   description: string;
   tags: string;
 };
+
+export type Tag = {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export type TagList = Record<string, Tag>;
