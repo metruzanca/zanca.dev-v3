@@ -7,7 +7,8 @@ tags:
   - mac
   - linux
 ---
-![](./powerbook_redjar.jpg)
+
+![Apple PowerBook G4](./powerbook_redjar.jpg)
 
 # Reviving a Powerbook G4 with Lubuntu Linux
 
@@ -39,7 +40,7 @@ PowerBooks are old, thus they don't have a GUI based bios and instead use a CLI.
 **NB**: if you have a non-american keyboard, while in this CLI your keyboard layout
 will default to the american layout so this might come in handy.
 
-![keyboard image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/KB_United_States-NoAltGr.svg/400px-KB_United_States-NoAltGr.svg.png)
+![US keyboard layout](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/KB_United_States-NoAltGr.svg/400px-KB_United_States-NoAltGr.svg.png)
 
 > *if your keyboard has a fat enter key, the | and \ key will instead be to the left of the enter key instead of above.*
 
