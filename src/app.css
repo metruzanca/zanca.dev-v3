@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #111019;
   @apply text-gray-400;
@@ -15,6 +19,9 @@ a:visited {
   color: #6883FD;
 }
 
+.bg-gradient {
+  background: linear-gradient(to right, #c468fd 0%, #6883FD 100%);
+}
 
 h1
 , .gradient

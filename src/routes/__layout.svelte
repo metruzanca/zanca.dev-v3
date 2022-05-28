@@ -19,6 +19,8 @@
 </svelte:head>
 
 <div class="relative">
+  <!-- #top is for scrolling back to the top without js -->
+  <span id="top" class="absolute top-[-100px]" />
   <Header bind:open />
 
   <slot />

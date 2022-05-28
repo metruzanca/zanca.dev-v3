@@ -2,6 +2,7 @@ import type { Twitter, OpenGraph } from "svelte-meta-tags";
 
 export const TITLE = "Developer Blog by Samuele Zanca";
 export const URL = "Zanca.Dev";
+export const SITE_NAME = URL;
 export const BASE_URL = 'https://zanca.dev';
 
 export const TWITTER: Twitter = {
@@ -29,7 +30,7 @@ export const menu = [
   {
     name: "Resume",
     // TODO this page
-    href: "/resume",
+    href: "https://gist.githubusercontent.com/metruzanca/751361e5ba58ad06f361ebd430ae6e10/raw/resume.pdf",
     // Link using special ghost button styles
     cta: true,
   },

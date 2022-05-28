@@ -1,55 +1,30 @@
 <script lang="ts">
   import Hamburger from "$lib/components/Hamburger.svelte";
-
-  export let title = "Zanca.dev";
-
-  let lastKnownScrollPosition = 0;
-  let ticking = false;
+  import { SITE_NAME } from "$lib/constants";
+  import scroll from "$lib/scroll";
 
   let floating = false;
-
-  function toggleFloating(positon: number) {
-    if (positon > 10) {
-      floating = true;
-    } else {
-      floating = false;
-    }
-  }
-
-  function scroll() {
-    lastKnownScrollPosition = window.scrollY;
-
-    if (!ticking) {
-      window.requestAnimationFrame(function () {
-        toggleFloating(lastKnownScrollPosition);
-        ticking = false;
-      });
-
-      ticking = true;
-    }
-  }
+  const toggleFloating = (positon: number) => (floating = positon > 10);
 
   export let open = false;
 </script>
 
-<svelte:window on:scroll={scroll} />
+<svelte:window on:scroll={scroll(toggleFloating)} />
 
 <nav
   class="flex justify-between items-center fixed w-full top-0"
   class:floating
 >
-  <h1>
+  <!-- FIXME This cannot be an h1. Remove this -->
+  <div class="text-4xl font-black">
     <a href="/">
-      <span>{title[0]}</span>{title.slice(1)}
+      <span>{SITE_NAME[0]}</span>{SITE_NAME.slice(1)}
     </a>
-  </h1>
+  </div>
   <Hamburger bind:open />
 </nav>
 
 <style>
-  h1 {
-    margin: 0;
-  }
   span {
     color: #f7e13a;
   }
