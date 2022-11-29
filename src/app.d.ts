@@ -14,7 +14,7 @@ export type Post = {
   slug: string;
   date: string;
   description: string;
-  tags: string;
+  tags: string[];
 };
 
 export type Tag = {

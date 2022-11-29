@@ -1,7 +1,7 @@
 <!-- TODO add z index dictionary and make sure this is always on top -->
 <script lang="ts">
   export let open = false;
-  export let asymetric = false;
+  export let asymetric = true;
 </script>
 
 <button on:click={() => (open = !open)} class="hamburger">
