@@ -21,10 +21,10 @@
           <span class="select-none">EMAIL:</span>
           <AntiSpam spam="sam@zanca.dev" />
         </div>
-        <div>
+        <!-- <div>
           <span class="select-none">PHONE:</span>
           <AntiSpam spam="+1 848 466 6653" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
